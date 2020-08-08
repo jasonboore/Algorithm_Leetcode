@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1ac836-2a01-4944-8d55-6f0395469f27" name="Default Changelist" comment="算法">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/HouseRobberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/artifacts/springboot2_emqx_publish_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/artifacts/springboot2_emqx_subscribe_jar.xml" beforeDir="false" />
@@ -129,6 +134,9 @@
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/medium/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/medium/AddTwoNumbers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helmet_client/esp8266/ArduinoJson-v6.15.2.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../helmet_client/esp8266/esp8266.ino" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../helmet_client/mega2560/ArduinoJson-v6.15.2.h" beforeDir="false" />
@@ -187,12 +195,34 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/easy/MergeTwoSortedLists.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/easy/RemoveDuplicatesFromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="345">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/HouseRobberIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/easy/SameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +237,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -224,14 +254,11 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/IntegerBreak.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Test.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/AddTwoNumbers.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/HouseRobberIII.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/SameTree.java" />
       </list>
     </option>
   </component>
@@ -247,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,13 +311,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -309,20 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
-    <configuration name="AddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.AddStrings" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SameTree">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.medium.AddTwoNumbers" />
       <module name="Algorithm" />
@@ -336,8 +352,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.LongestCommonPrefix" />
+    <configuration name="HouseRobberIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.HouseRobberIII" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -349,12 +365,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Test" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.LongestSubstringWithoutRepeatingCharacters" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +378,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ValidParentheses" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.RemoveDuplicatesFromSortedArray" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SameTree" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.HouseRobberIII" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.AddStrings" />
-        <item itemvalue="Application.LongestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +434,8 @@
       <workItem from="1596267673101" duration="4631000" />
       <workItem from="1596465151958" duration="1733000" />
       <workItem from="1596619855018" duration="4724000" />
-      <workItem from="1596716783050" duration="455000" />
+      <workItem from="1596716783050" duration="3858000" />
+      <workItem from="1596789011454" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1596716902369</created>
@@ -418,12 +448,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28538000" />
+    <option name="totallyTimeSpent" value="35256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/IntegerBreak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -571,10 +594,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="5" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/JDK/jdk-12.0.1/lib/src.zip!/java.base/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2894">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/easy/MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="286">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/HouseRobberIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/SameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
