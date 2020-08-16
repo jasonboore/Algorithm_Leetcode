@@ -1,6 +1,8 @@
 package leetcode.medium;
 
-import java.util.concurrent.LinkedBlockingQueue;
+/**
+ * 两数相加
+ */
 
 public class AddTwoNumbers {
     public static class ListNode {

@@ -1,5 +1,8 @@
 package leetcode.medium;
 
+/**
+ * 最长回文子串
+ */
 public class LongestPalindromicSubstring {
     public static char[] manacherString(String s){
         char[] chs = s.toCharArray();

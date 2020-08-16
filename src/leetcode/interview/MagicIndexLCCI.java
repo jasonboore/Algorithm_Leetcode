@@ -1,5 +1,8 @@
 package leetcode.interview;
 
+/**
+ * 魔术索引
+ */
 public class MagicIndexLCCI {
     public static int findMagicIndex(int[] nums) {
         return process(nums, 0, nums.length - 1);
