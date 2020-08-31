@@ -4,12 +4,6 @@ package leetcode.easy.tree;
  * 二叉树的最小深度
  */
 public class MinimumDepthofBinaryTree {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public static int minDepth(TreeNode root) {
         if(root == null) {
             return 0;

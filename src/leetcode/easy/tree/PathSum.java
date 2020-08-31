@@ -4,12 +4,6 @@ package leetcode.easy.tree;
  * 路径总和
  */
 public class PathSum {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public static boolean hasPathSum(TreeNode root, int sum) {
         if(root == null) {
             return false;

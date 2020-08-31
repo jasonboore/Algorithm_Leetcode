@@ -4,14 +4,6 @@ package leetcode.easy.tree;
  * 二叉树的最大深度
  */
 public class MaximumDepthofBinaryTree {
-    public static class TreeNode{
-        public int value;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int value){
-            this.value = value;
-        }
-    }
     public static int maxDepth(TreeNode root){
         if(root == null) {
             return 0;

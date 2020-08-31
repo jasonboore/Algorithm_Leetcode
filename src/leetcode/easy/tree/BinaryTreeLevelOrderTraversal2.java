@@ -7,12 +7,6 @@ package leetcode.easy.tree;
 import java.util.*;
 
 public class BinaryTreeLevelOrderTraversal2 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public static List<List<Integer>> levelOrderBottom(TreeNode root) {
         if(root == null) {
             return new ArrayList<>();

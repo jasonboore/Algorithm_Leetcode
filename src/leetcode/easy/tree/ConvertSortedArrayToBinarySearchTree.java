@@ -4,12 +4,6 @@ package leetcode.easy.tree;
  * 将有序数组转换为二叉搜索树
  */
 public class ConvertSortedArrayToBinarySearchTree {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public static TreeNode sortedArrayToBST(int[] nums) {
         return process(nums, 0, nums.length - 1);
     }
