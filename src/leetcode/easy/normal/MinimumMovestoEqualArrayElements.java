@@ -3,7 +3,7 @@ package leetcode.easy.normal;
 import java.util.Arrays;
 
 /**
- *
+ * 最小移动次数使数组元素相等
  */
 public class MinimumMovestoEqualArrayElements {
     public static int minMoves(int[] nums) {
